@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¡Gracias!</title>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+  rel="stylesheet">
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f7f3ee;
+      font-family: "Oswald", sans-serif !important;
+      color: #2A363B;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: rgba(255,255,255,0.9);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      padding: 3rem 2rem;
+      max-width: 400px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .container::before, .container::after {
+      content: '';
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      opacity: 0.2;
+    }
+    .container::before {
+      top: -20px;
+      left: -20px;
+    }
+    .container::after {
+      bottom: -20px;
+      right: -20px;
+      transform: scaleX(-1);
+    }
+
+    h1 {
+        font-family: "Oswald", sans-serif !important;
+        font-size: 2.6rem;
+      margin-bottom: 1rem;
+      color: #2A363B;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    a {
+      display: inline-block;
+      padding: 0.8rem 1.6rem;
+      background: #99B898;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      font-family: "Oswald", sans-serif !important;
+      font-size: larger;
+    }
+
+    a:hover {
+      background: #7ca67a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Gracias por tu mensaje!</h1>
+    <p>Te contactaré muy pronto.</p>
+    <a href="./index.html">VOLVER AL INICIO</a>
+  </div>
+</body>
+</html>

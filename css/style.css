@@ -295,7 +295,7 @@ textarea {
   display: block;
   padding: 1.2rem;
   border-bottom: 2px solid #eee;
-  transition: background .3s;
+  transition: background-color .3s;
 }
 
 .home-hero__social-icon-link:hover {
