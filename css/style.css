@@ -746,14 +746,13 @@ textarea {
   overflow: hidden;
   margin-right: 0.2rem;
   background: #99B898;
-
 }
 
 @media only screen and (max-width: 56.25em) {
   .header__logo-img-cont {
     width: 4.5rem;
     height: 4.5rem;
-    margin-right: 1.2rem;
+    margin-right: 0.2rem;
   }
 }
 
