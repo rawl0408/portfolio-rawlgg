@@ -194,25 +194,28 @@
         </span>
       </h2>
       <div class="contact__form-container">
-        <form action="#" class="contact__form">
+        <form name="contact" method="POST" data-netlify="true" class="contact__form">
+          <input type="hidden" name="form-name" value="contact" />
+
+          <p style="display:none">
+            <label>Si ves este campo, no eres humano: <input name="bot-field" /></label>
+          </p>
+
           <div class="contact__form-field">
-            <label class="contact__form-label" for="name">Nombre</label>
-            <input required placeholder="Escribe tu nombre" type="text" class="contact__form-input" name="name"
-              id="name" />
+            <label for="name" class="contact__form-label">Nombre</label>
+            <input id="name" name="name" required class="contact__form-input" placeholder="Escribe tu nombre" />
           </div>
           <div class="contact__form-field">
-            <label class="contact__form-label" for="email">Email</label>
-            <input required placeholder="Escribe tu email" type="text" class="contact__form-input" name="email"
-              id="email" />
+            <label for="email" class="contact__form-label">Email</label>
+            <input id="email" name="email" type="email" required class="contact__form-input"
+              placeholder="Escribe tu email" />
           </div>
           <div class="contact__form-field">
-            <label class="contact__form-label" for="message">Mensaje</label>
-            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Escribe tu mensaje"
-              name="message" id="message"></textarea>
+            <label for="message" class="contact__form-label">Mensaje</label>
+            <textarea id="message" name="message" required class="contact__form-input" cols="30" rows="8"
+              placeholder="Escribe tu mensaje"></textarea>
           </div>
-          <button type="submit" class="btn btn--theme contact__btn">
-            Enviar
-          </button>
+          <button type="submit" class="btn btn--theme contact__btn">Enviar</button>
         </form>
       </div>
     </div>
