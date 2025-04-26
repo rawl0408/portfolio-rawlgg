@@ -10,16 +10,6 @@ CSS
 
 JavaScript
 
-## Estructura del proyecto
-
-/               # Raíz del proyecto
-├── assets/     # Imágenes, iconos y otros recursos
-├── css/        # Hojas de estilo
-│   └── style.css
-├── index.js    # Archivo JavaScript
-├── index.html  # Página principal
-└── project-zytapp.html # Caso de estudio de proyecto ZYTAPP
-
 ## Instalación y uso
 
 Clona el repositorio:
