@@ -34,3 +34,27 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+const socialTab       = document.getElementById('socialTab');
+const socialTabHandle = document.getElementById('socialTabHandle');
+
+socialTab.addEventListener('click', e => {
+  e.stopPropagation();
+});
+
+socialTabHandle.addEventListener('click', e => {
+  e.stopPropagation();
+  socialTab.classList.toggle('open');
+});
+
+document.addEventListener('click', () => {
+  if (socialTab.classList.contains('open')) {
+    socialTab.classList.remove('open');
+  }
+});
+
+window.addEventListener('wheel', () => {
+  if (socialTab.classList.contains('open')) {
+    socialTab.classList.remove('open');
+  }
+});
