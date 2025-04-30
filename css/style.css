@@ -414,6 +414,10 @@ textarea {
   overflow: hidden;
 }
 
+.projects__row-img-presupuestos {
+  padding-top: 70px;
+}
+
 .projects__row-img {
   width: 100%;
   display: block;

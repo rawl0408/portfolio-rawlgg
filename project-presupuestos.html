@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>APP Presupuestos Project</title>
+  <meta name="description" content="Case study page of Project" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="icon" href="./assets/jpeg/logo.jpg" type="image/x-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/logo.jpg" alt="Raul Garcia Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">aul Garcia</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link">Inicio</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">Sobre mí</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">Proyectos</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link">Contacto</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./assets/docs/CV-T Raúl García Frontend.pdf" class="header__link" target="_blank">CV</a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html">Inicio</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about">Sobre mí</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects">Proyectos</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact">Contacto</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./assets/docs/CV-T Raúl García Frontend.pdf" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">APP Presupuestos</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Aquí podrás conocer en detalle el proyecto APP Presupuestos, su funcionalidad principal y las tecnologías empleadas en
+          su desarrollo.
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="https://presupuestosapp.vercel.app/" class="btn btn--med btn--theme project-details__links-btn"
+          target="_blank">Ir APP Presupuestos</a>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont-pj1">
+          <img src="./assets/jpeg/project-mockup-presupuestos.jpg" alt="Project Image"
+            class="projects__row-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Resumen del Proyecto</h3>
+            <p class="project-details__desc-para">
+              He creado una APP que permita gestionar presupuestos de forma sencilla y rápida. 
+              Los presupuestos se pueden solicitar y seguidamente aparecen en la lista inferior.
+              Se pueden ordenar por nombre, fecha, importe y filtrar por nombre (escrito). 
+            </p>
+            <p class="project-details__desc-para">
+              La APP no tiene un Backend, por lo que los datos se guardan en el LocalStorage del navegador y al refrescar la web, se borran.
+              Lo correcto para un caso real, seria crear un Backend con una base de datos,
+              para que los datos no se perdieran al refrescar la web.
+            </p>
+            <p class="project-details__desc-para">
+              La idea principal era crear esta APP para asentar conceptos de Angular y Typescript,
+              ya que es un framework muy potente y versátil. Puede pasar informacion entre componentes
+              y crear una SPA (Single Page Application) que permite navegar entre diferentes vistas sin recargar la página.
+            </p>
+
+            <p class="project-details__desc-para">
+              La APP está desarrollada en Angular (Typescript), HTML, Bootstrap y CSS. Está desplegada en Vercel. 
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Tecnologías Usadas</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">Angular</div>
+              <div class="skills__skill">Typescript</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Vercel</div>
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">Resumen</h3>
+            <a href="https://presupuestosapp.vercel.app/" class="btn btn--med btn--theme project-details__links-btn"
+              target="_blank">APP Presupuestos</a>
+            <a href="https://github.com/IT-ACADEMY-Angular/raul-sprint6-presupuestos-app"
+              class="btn btn--med btn--theme-inv project-details__links-btn" target="_blank">Código del Proyecto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-2">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>¿conectamos?</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <div class="main-footer__social-item">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/raulgarcia4/">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn icon" />
+                <span class="main-footer__social-text">- LinkedIn</span>
+              </a>
+            </div>
+            <div class="main-footer__social-item">
+              <a target="_blank" rel="noreferrer" href="https://github.com/rawl0408">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub icon" />
+                <span class="main-footer__social-text">- GitHub</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-footer__lower">
+        &copy; Raul Garcia 2025.
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
